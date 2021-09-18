@@ -1,0 +1,12 @@
+.hierarchy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hierarchy__children {
+  margin: 1em;
+  display: flex;
+  align-items: flex-start;
+}

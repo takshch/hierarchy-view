@@ -1,10 +1,11 @@
 import "./App.css";
-import Card from "./component/Card/index";
+import HierarchyContainer from "./component/HierarchyContainer";
 
 function App() {
   return (
     <div className="App">
-      <Card title="tata steel" percentage="20" />
+      {/* <Card title="tata steel" percentage="20" /> */}
+      <HierarchyContainer />
     </div>
   );
 }

@@ -5,7 +5,7 @@ const OF_TRACK = "OF TRACK";
 const ON_TRACK = "ON TRACK";
 
 export default function Card(props) {
-  const { title, percentage, details } = props;
+  const { title, percentage, details, onClick } = props;
   const [status, setStatus] = useState(null);
   const [theme, setTheme] = useState(null);
   useEffect(() => {
@@ -22,7 +22,7 @@ export default function Card(props) {
   }, [percentage]);
 
   return (
-    <div className={`card ${theme}`}>
+    <div className={`card ${theme}`} onClick={onClick}>
       <div className="card__header">
         <span className="card__title">{title}</span>
         <span className="card__percentage-complete">
@@ -32,9 +32,9 @@ export default function Card(props) {
       <div className="card__body">
         <div className="card__details">
           {details
-            ? details.map(({ field, value }) => {
+            ? details.map(({ field, value }, index) => {
                 return (
-                  <React.Fragment>
+                  <React.Fragment key={index}>
                     <span className="card__details-info">
                       {field} - {value}
                     </span>

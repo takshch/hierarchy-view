@@ -1,0 +1,148 @@
+{
+    "title": "TATA STEEL",
+    "percentage": "50",
+    "details": [
+        {
+            "field": "Total Sales",
+            "value": "200 Core"
+        },
+        {
+            "field": "Target Sales",
+            "value": "500 Core"
+        }
+    ],
+    "children": [
+        {
+            "title": "Factory A",
+            "percentage": "20",
+            "details": [
+                {
+                    "field": "Total Sales",
+                    "value": "20 Core"
+                },
+                {
+                    "field": "Target Sales",
+                    "value": "100 Core"
+                }
+            ],
+            "children": [
+                {
+                    "title": "Godown A",
+                    "percentage": "20",
+                    "details": [
+                        {
+                            "field": "Total Sales",
+                            "value": "10 Core"
+                        },
+                        {
+                            "field": "Target Sales",
+                            "value": "50 Core"
+                        }
+                    ]
+                },
+                {
+                    "title": "Godown A",
+                    "percentage": "20",
+                    "details": [
+                        {
+                            "field": "Total Sales",
+                            "value": "10 Core"
+                        },
+                        {
+                            "field": "Target Sales",
+                            "value": "50 Core"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Factory B",
+            "percentage": "75",
+            "details": [
+                {
+                    "field": "Total Sales",
+                    "value": "150 Core"
+                },
+                {
+                    "field": "Target Sales",
+                    "value": "200 Core"
+                }
+            ],
+            "children": [
+                {
+                    "title": "Godown A",
+                    "percentage": "20",
+                    "details": [
+                        {
+                            "field": "Total Sales",
+                            "value": "10 Core"
+                        },
+                        {
+                            "field": "Target Sales",
+                            "value": "50 Core"
+                        }
+                    ]
+                },
+                {
+                    "title": "Godown A",
+                    "percentage": "20",
+                    "details": [
+                        {
+                            "field": "Total Sales",
+                            "value": "10 Core"
+                        },
+                        {
+                            "field": "Target Sales",
+                            "value": "50 Core"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Factory A",
+            "percentage": "30",
+            "details": [
+                {
+                    "field": "Total Sales",
+                    "value": "30 Core"
+                },
+                {
+                    "field": "Target Sales",
+                    "value": "100 Core"
+                }
+            ],
+            "children": [
+                {
+                    "title": "Godown A",
+                    "percentage": "20",
+                    "details": [
+                        {
+                            "field": "Total Sales",
+                            "value": "10 Core"
+                        },
+                        {
+                            "field": "Target Sales",
+                            "value": "50 Core"
+                        }
+                    ]
+                },
+                {
+                    "title": "Godown A",
+                    "percentage": "20",
+                    "details": [
+                        {
+                            "field": "Total Sales",
+                            "value": "10 Core"
+                        },
+                        {
+                            "field": "Target Sales",
+                            "value": "50 Core"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
